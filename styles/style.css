@@ -1,11 +1,7 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #000;
 }
@@ -23,13 +19,13 @@
 .logo {
   width: 183px;
   height: 32px;
-  z-index: 2;
 }
 
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
+  z-index: 2;
 }
 
 .header__title {
@@ -80,7 +76,6 @@
 
 .description {
   padding-top: 100px;
-  margin: 0;
   display: flex;
   justify-content: center;
 
@@ -133,7 +128,7 @@
   flex-direction: column;
 }
 
-.section-tiile {
+.section-title {
   margin: 0 auto;
   width: 60%;
   font-size: 60px;
@@ -227,10 +222,129 @@
   bottom: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.kaufman {
+  background-color: #000;
+  color: #f2f2f2;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 90px;
+  padding-top: 90px;
+  z-index: 1;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  height: 877px;
+  width: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
+  right: -210px;
+  top: 0;
+  z-index: -1;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 1
+}
+
+.section-title_theme_dark {
+
+}
+
+.section-subtitle_theme_dark {
+
+}
+
+.table__heading_theme_dark {
+
+}
+
+.table__text_theme_dark {
+
+}
+
+.footer {
+  min-height: 350px;
+  background-color: #000;
+  color: #f2f2f2;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer__columns {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid yellow;
+}
+
+.footer__columns_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid yellow;
+}
+
+.footer__columns_content_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 2px solid yellow;
+}
+
+.footer__columns_content_social {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 2px solid yellow;
+}
+
+.logo_place_footer {
+  height: 35px;
+}
+
+.footer__author {
+  margin: 0;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.footer__columns-link {
+  margin: 0;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.footer__columns-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer__columns-heading {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 30px;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
