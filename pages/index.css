@@ -59,7 +59,7 @@
 @import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__column/_content_copyright/footer__column_content_copyright.css);
 @import url(../blocks/footer/__author/footer__author.css);
-@import url(../blocks/footer/__columns-links/footer__columns-links.css);
-@import url(../blocks/footer/__columns-link/footer__columns-link.css);
-@import url(../blocks/footer/__columns-heading/footer__columns-heading.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
