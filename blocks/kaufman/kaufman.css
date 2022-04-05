@@ -1,0 +1,9 @@
+.kaufman {
+  background-color: #000;
+  color: #f2f2f2;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 90px;
+  padding-top: 90px;
+  z-index: 1;
+}
