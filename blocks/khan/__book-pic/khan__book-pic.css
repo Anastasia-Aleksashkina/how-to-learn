@@ -2,6 +2,6 @@
   width: 620px;
   height: 608px;
   object-fit: cover;
-  object-position: 100% 100%;
+  object-position: top;
   padding-right: 48px;
 }
